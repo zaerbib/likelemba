@@ -24,6 +24,14 @@ public class StringUtils {
 	public static final String INVALID_NUMBER = "Invalid number";
 	public static final String INVALID_TYPE = "Invalid type";
 	public static final String INVALID_EXP_DATE = "Invalid exp date";
+	public static final String CUSTOMER_OBJECT_NULL = "Customer object is null";
+	public static final String INVALID_CUSTOMER_ID = "Invalid customer id";
+	public static final String CATEGORY_OBJECT_NULL = "Category object is null";
+	public static final String INVALID_CATEGORY_ID = "Invalid category id";
+	public static final String PRODUCT_OBJECT_NULL = "Category object is null";
+	public static final String INVALID_PRODUCT_ID = "Invalid category id";
+	public static final String ITEM_OBJECT_NULL = "Item object is null";
+	public static final String INVALID_ITEM_ID = "Invalid item id";
 	
 	
 	public static boolean emptyOrNull(String string) {
