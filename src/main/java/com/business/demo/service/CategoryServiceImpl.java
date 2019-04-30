@@ -132,8 +132,7 @@ public class CategoryServiceImpl implements CategoryService {
 
 	@Override
 	public List<Item> searchItem(String keyword) {
-		// TODO Auto-generated method stub
-		return null;
+		return itemRepository.findByFirstNameIgnoreCase(keyword);
 	}
 
 }
