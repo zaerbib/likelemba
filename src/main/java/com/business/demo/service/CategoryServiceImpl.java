@@ -132,7 +132,7 @@ public class CategoryServiceImpl implements CategoryService {
 
 	@Override
 	public List<Item> searchItem(String keyword) {
-		return itemRepository.findByFirstNameIgnoreCase(keyword);
+		return itemRepository.findByNameIgnoreCase(keyword);
 	}
 
 }

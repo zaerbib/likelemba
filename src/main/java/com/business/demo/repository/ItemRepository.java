@@ -17,5 +17,5 @@ import com.business.demo.entity.category.Item;
 
 @Component
 public interface ItemRepository extends JpaRepository<Item, Long> {
-	List<Item> findByFirstNameIgnoreCase(String firstName);
+	List<Item> findByNameIgnoreCase(String firstName);
 }
