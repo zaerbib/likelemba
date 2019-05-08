@@ -32,6 +32,9 @@ public class StringUtils {
 	public static final String INVALID_PRODUCT_ID = "Invalid category id";
 	public static final String ITEM_OBJECT_NULL = "Item object is null";
 	public static final String INVALID_ITEM_ID = "Invalid item id";
+	public static final String ORDER_OBJECT_NULL = "Order object is null";
+	public static final String INVALID_ORDER_ID = "Invalid order id";
+	public static final String CREDITCARD_OBJECT_NULL = "Credit Card object is null";
 	
 	
 	public static boolean emptyOrNull(String string) {
